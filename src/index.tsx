@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
+import Landingpage from './components/Landingpage'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -10,6 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Landingpage />
   </React.StrictMode>
 );
 
