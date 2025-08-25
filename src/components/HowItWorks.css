@@ -1,0 +1,99 @@
+/* Section */
+.howitworks {
+  padding: 5rem 0; /* py-20 */
+  background: white;
+}
+
+/* Container */
+.howitworks-container {
+  max-width: 1120px; /* 7xl */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+.howitworks-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.howitworks-header h2 {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: bold;
+  color: #111827; /* gray-900 */
+  margin-bottom: 1rem;
+}
+
+.howitworks-header p {
+  font-size: 1.25rem;
+  color: #4b5563; /* gray-600 */
+  max-width: 48rem; /* max-w-3xl */
+  margin: 0 auto;
+}
+
+/* Grid */
+.howitworks-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .howitworks-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Step Item */
+.step {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: scale(1.05);
+}
+
+.step-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.step:hover .step-icon {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.step-icon .icon {
+  color: white;
+}
+
+/* Step Text */
+.step h3 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.step p {
+  color: #4b5563; /* gray-600 */
+  line-height: 1.6;
+}
+
+/* Color Variants */
+.circle-blue {
+  background-color: #ff6c02; /* blue-500 */
+}
+
+.circle-green {
+  background-color: #ff6c02; /* green-500 */
+}
+
+.circle-orange {
+  background-color: #f97316; /* orange-500 */
+}
