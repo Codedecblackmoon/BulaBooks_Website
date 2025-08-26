@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage'
 import HowItWorks from './components/HowItWorks'
 import Features from './components/Features'
+import Impact from './components/Impact'
+import Download from './components/Download'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -16,6 +18,8 @@ root.render(
     <Landingpage />
     <HowItWorks />
     <Features />
+    <Impact />
+    <Download />
   </React.StrictMode>
 );
 

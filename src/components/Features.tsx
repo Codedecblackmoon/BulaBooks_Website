@@ -8,37 +8,37 @@ const Features: React.FC = () => {
       icon: Globe,
       title: "Multilingual Stories",
       description:
-        "Stories available in multiple languages to support diverse learning needs and cultural backgrounds.",
+        "AI-powered books in English and home languages.",
     },
     {
       icon: Mic,
       title: "Speech Feedback",
       description:
-        "AI-powered speech recognition provides instant feedback on pronunciation and reading fluency.",
+        "Real-time pronunciation help while reading aloud.",
     },
     {
       icon: WifiOff,
       title: "Offline Access",
       description:
-        "Download content for learning anywhere, anytime - no internet connection required.",
+        "Works on low-cost devices, no internet needed.",
     },
     {
       icon: MessageSquare,
       title: "SMS Updates",
       description:
-        "Parents receive progress updates and reading reminders via SMS to stay connected.",
+        "Parents get progress updates via SMS."
     },
     {
       icon: Gamepad2,
       title: "Cooperative Games",
       description:
-        "Interactive games that encourage collaboration and make learning social and fun.",
+        "Family games that make learning fun together.",
     },
     {
       icon: TrendingUp,
       title: "Progress Tracking",
       description:
-        "Detailed analytics and insights to monitor learning progress and identify areas for improvement.",
+        "Simple dashboards for teachers and parents.",
     },
   ];
 
