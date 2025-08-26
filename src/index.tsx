@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage'
 import HowItWorks from './components/HowItWorks'
+import Features from './components/Features'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -14,6 +15,7 @@ root.render(
     <Navbar />
     <Landingpage />
     <HowItWorks />
+    <Features />
   </React.StrictMode>
 );
 
