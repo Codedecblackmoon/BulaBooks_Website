@@ -8,6 +8,8 @@ import Features from './components/Features'
 import Impact from './components/Impact'
 import Download from './components/Download'
 import About from './components/About'
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -22,6 +24,8 @@ root.render(
     <Impact />
     <Download />
     <About />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 

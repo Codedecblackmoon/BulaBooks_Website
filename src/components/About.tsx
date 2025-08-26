@@ -1,4 +1,5 @@
 import React from 'react';
+import im from '../images/img1.png'
 import './About.css';
 
 const About: React.FC = () => {
@@ -31,13 +32,7 @@ const About: React.FC = () => {
           </div>
           
           <div className="impact-card">
-            <div className="impact-inner">
-              <div className="impact-icon">
-                <span role="img" aria-label="globe">🌍</span>
-              </div>
-              <h4>Making Impact Across Africa</h4>
-              <p>Serving communities from Cape Town to Limpopo</p>
-            </div>
+            <img src={im} alt="" />
           </div>
         </div>
 

@@ -54,39 +54,9 @@
 
 /* Impact Card */
 .impact-card {
-  background: linear-gradient(to bottom right, #FFEDD5, #FEF3C7);
+  /* background: linear-gradient(to bottom right, #FFEDD5, #FEF3C7)/; */
   border-radius: 16px;
-  padding: 32px;
-}
-
-.impact-inner {
-  background: #fff;
-  border-radius: 12px;
-  padding: 24px;
-  text-align: center;
-}
-
-.impact-icon {
-  width: 192px;
-  height: 128px;
-  background: linear-gradient(to bottom right, #FED7AA, #FDE68A);
-  border-radius: 12px;
-  margin: 0 auto 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-.impact-inner h4 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #1F2937;
-  margin-bottom: 8px;
-}
-
-.impact-inner p {
-  color: #4B5563;
+  padding: 10px;
 }
 
 /* Team Section */
