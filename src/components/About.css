@@ -1,0 +1,161 @@
+/* General Section */
+.about-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Headings & Text */
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.section-header p {
+  font-size: 1.25rem;
+  color: #4B5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about-grid h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 24px;
+}
+
+.about-grid p {
+  color: #4B5563;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+/* Impact Card */
+.impact-card {
+  background: linear-gradient(to bottom right, #FFEDD5, #FEF3C7);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.impact-inner {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+.impact-icon {
+  width: 192px;
+  height: 128px;
+  background: linear-gradient(to bottom right, #FED7AA, #FDE68A);
+  border-radius: 12px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.impact-inner h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1F2937;
+  margin-bottom: 8px;
+}
+
+.impact-inner p {
+  color: #4B5563;
+}
+
+/* Team Section */
+.team-header h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.team-header p {
+  font-size: 1.25rem;
+  color: #4B5563;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.team-member {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.team-member:hover .team-avatar {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.team-member h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.team-member p {
+  color: #4B5563;
+}
+
+/* Avatar Colors */
+.team-avatar.orange { background: #F97316; }
+.team-avatar.blue { background: #3B82F6; }
+.team-avatar.green { background: #22C55E; }
+.team-avatar.purple { background: #A855F7; }
+.team-avatar.pink { background: #EC4899; }
+.team-avatar.indigo { background: #6366F1; }
