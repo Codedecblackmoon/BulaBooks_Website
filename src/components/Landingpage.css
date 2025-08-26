@@ -1,7 +1,7 @@
 /* Section Background */
 .hero {
   padding-top: 5rem;   /* pt-20 */
-  padding-bottom: 4rem; /* pb-16 */
+  padding-bottom: 0px;
   background: rgba(255, 255, 255, 0.95);
   position: relative;
   overflow: hidden;
@@ -16,13 +16,13 @@
   padding: 0 1rem;
   padding-top: 3rem;
   position: relative;
-  min-height: 600px;
+  min-height: 550px;
   background-image: url(../images/hero_back.png);
   background-size: 65rem;     
   background-position: center; 
   background-repeat: no-repeat; 
   background-position-x: -20px;
-  background-position-y: 95px;
+  background-position-y: 100px;
 
 }
 

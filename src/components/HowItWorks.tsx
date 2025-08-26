@@ -8,21 +8,21 @@ const HowItWorks: React.FC = () => {
       icon: Users,
       title: "For Kids",
       description:
-        "Engaging interactive stories and games that make learning fun. Children can read, listen, and interact with characters while building vocabulary and comprehension skills.",
+        "Interactive stories with speech feedback help children read aloud and improve pronunciation in multiple languages.",
       color: "circle-blue",
     },
     {
       icon: GraduationCap,
       title: "For Parents",
       description:
-        "Track your child's progress with detailed insights and reports. Get personalized recommendations and tips to support their reading journey at home.",
+        "Receive SMS updates on progress, play cooperative games, and support your child's learning journey",
       color: "circle-green",
     },
     {
       icon: BookOpen,
       title: "For Teachers",
       description:
-        "Classroom management tools with lesson plans, progress tracking, and curriculum alignment. Perfect for supplementing traditional teaching methods.",
+        "Simple dashboards track student progress and work offline, perfect for classrooms without Wi-Fi.",
       color: "circle-orange",
     },
   ];
