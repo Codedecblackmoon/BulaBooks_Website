@@ -28,19 +28,10 @@
   margin-bottom: 16px;
 }
 
-.logo-icon {
-  background: #f97316; /* orange-500 */
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 8px;
-  border-radius: 8px;
-  margin-right: 12px;
-}
-
-.logo-text {
-  font-size: 24px;
-  font-weight: bold;
+.footer-logo img{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
 }
 
 .footer-desc {

@@ -96,12 +96,12 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            <div className="map-box">
+            {/* <div className="map-box">
               <h4>Find us on the map</h4>
               <div className="map-placeholder">
                 <MapPin size={48} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

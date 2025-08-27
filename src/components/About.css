@@ -65,11 +65,14 @@
   font-weight: bold;
   color: #111827;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .team-header p {
   font-size: 1.25rem;
   color: #4B5563;
+  text-align: center;
+
 }
 
 .team-grid {
@@ -124,8 +127,4 @@
 
 /* Avatar Colors */
 .team-avatar.orange { background: #F97316; }
-.team-avatar.blue { background: #3B82F6; }
-.team-avatar.green { background: #22C55E; }
-.team-avatar.purple { background: #A855F7; }
-.team-avatar.pink { background: #EC4899; }
-.team-avatar.indigo { background: #6366F1; }
+

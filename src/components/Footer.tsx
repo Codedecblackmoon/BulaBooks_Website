@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '../images/logo2.png'
 import './Footer.css';
 
 const Footer: React.FC = () => {
@@ -36,8 +37,9 @@ const Footer: React.FC = () => {
           {/* Logo and Description */}
           <div className="footer-brand">
             <div className="footer-logo">
-              <div className="logo-icon">📚</div>
-              <span className="logo-text">BulaBooks</span>
+              <img src={logo} alt="" />
+              {/* <div className="logo-icon">📚</div>
+              <span className="logo-text">BulaBooks</span> */}
             </div>
             <p className="footer-desc">
               Empowering children across South Africa with engaging reading experiences and AI-powered learning tools.
@@ -76,10 +78,6 @@ const Footer: React.FC = () => {
           <p className="footer-copy">
             Copyright © 2025 BulaBooks. All rights reserved.
           </p>
-          <div className="footer-icons">
-            <div className="emoji">🍎</div>
-            <div className="emoji">🤖</div>
-          </div>
         </div>
       </div>
     </footer>
