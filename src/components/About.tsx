@@ -4,12 +4,12 @@ import './About.css';
 
 const About: React.FC = () => {
   const teamMembers = [
-    { name: 'Busisiwe', role: 'Founder & CEO', color: 'orange' },
-    { name: 'Thandiwe', role: 'Head of Education', color: 'orange' },
-    { name: 'Lerato', role: 'Lead Developer', color: 'orange' },
-    { name: 'Sibusiso', role: 'UX Designer', color: 'orange' },
-    { name: 'Grace', role: 'Marketing Director', color: 'orange' },
-    { name: 'Mandla', role: 'Head of Partnerships', color: 'orange' }
+    { name: 'Boitumelo', role: 'Marketing | Dev (Front-End)', color: 'orange' },
+    { name: 'khuselo', role: 'Finance | Dev (Back-End)', color: 'orange' },
+    { name: 'Lee-vandre', role: 'Finance | Dev (Back-End)', color: 'orange' },
+    { name: 'Gideon', role: 'Dev (Front-End)', color: 'orange' },
+    { name: 'Oratile', role: 'Marketing | Sales', color: 'orange' },
+    { name: 'Montel', role: 'HDev (Back-End)', color: 'orange' }
   ];
 
   return (
