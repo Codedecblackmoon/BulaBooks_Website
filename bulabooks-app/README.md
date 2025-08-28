@@ -26,7 +26,7 @@ This repository contains the **full responsive web app** (React + Tailwind), inc
 - Download page with App Store/Play Store links
 - About Us & Contact form
 
-### 🛠️ Tech Stack
+### Tech Stack
 - **Frontend:** React, Tailwind CSS
 - **Routing:** React Router
 - **State Management:** Context API / Redux (TBD)
@@ -56,8 +56,8 @@ This repository contains the **full responsive web app** (React + Tailwind), inc
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/bulabooks.git
-   cd bulabooks
+   git clone https://github.com/Codedecblackmoon/BulaBooks_Website/tree/bula/bulabooks-app
+   cd bulabooks-app
    ```
 
 2. Install dependencies:
@@ -72,7 +72,7 @@ This repository contains the **full responsive web app** (React + Tailwind), inc
 
 4. Open in browser:
    ```
-   http://localhost:5173
+   http://localhost:8080
    ```
 
 ---
