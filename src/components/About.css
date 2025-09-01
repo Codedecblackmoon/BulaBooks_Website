@@ -54,25 +54,25 @@
 
 /* Impact Card */
 .impact-card {
-  /* background: linear-gradient(to bottom right, #FFEDD5, #FEF3C7)/; */
   border-radius: 16px;
   padding: 10px;
 }
 
 /* Team Section */
-.team-header h3 {
+.t-team h3 {
   font-size: 1.875rem;
   font-weight: bold;
   color: #111827;
-  margin-bottom: 16px;
+  margin-bottom: 1px;
   text-align: center;
 }
 
-.team-header p {
-  font-size: 1.25rem;
+.t-team p {
+  font-size: 0.8rem;
   color: #4B5563;
   text-align: center;
-
+  margin-bottom: 5rem;
+  padding: 0px;
 }
 
 .team-grid {
@@ -118,10 +118,11 @@
   font-size: 1.25rem;
   font-weight: bold;
   color: #111827;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 .team-member p {
+  margin-top: 0rem;
   color: #4B5563;
 }
 

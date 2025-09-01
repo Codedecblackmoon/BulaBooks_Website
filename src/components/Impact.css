@@ -22,7 +22,7 @@
 }
 
 .impact-header p {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   color: #4b5563;
   max-width: 720px;
   margin: 0 auto;
@@ -75,7 +75,8 @@
 }
 
 .testimonial-card {
-   box-shadow:  7.5px 15px rgba(153, 153, 153, 0.25);
+   box-shadow:  0 10px 20px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
 }
 
 .testimonial-inner {
@@ -89,6 +90,8 @@
   align-items: center;
   margin-bottom: 16px;
 }
+
+
 
 .avatar {
   width: 48px;

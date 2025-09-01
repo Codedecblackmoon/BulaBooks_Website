@@ -1,4 +1,5 @@
 import React from 'react';
+// import Image1 from '../images/logo2.png';
 import './Impact.css';
 
 const Impact: React.FC = () => {
@@ -42,7 +43,9 @@ const Impact: React.FC = () => {
           <div className="testimonial-card orange">
             <div className="testimonial-inner">
               <div className="testimonial-header">
-                <div className="avatar"></div>
+                <div className="avatar">
+                  {/* <img src={Image1} alt="" /> */}
+                </div>
                 <div>
                   <div className="testimonial-name">Nomsa</div>
                   <div className="testimonial-role">Parent, KwaZulu-Natal</div>

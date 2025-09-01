@@ -21,11 +21,11 @@
   font-size: 2.25rem; /* text-4xl */
   font-weight: bold;
   color: #111827; /* gray-900 */
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .features-header p {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   color: #4b5563; /* gray-600 */
   max-width: 48rem; /* max-w-3xl */
   margin: 0 auto;
@@ -67,8 +67,8 @@
 /* Feature Icon */
 .feature-icon {
   background-color: #ffedd5; /* orange-100 */
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@
   font-size: 1.25rem; /* text-xl */
   font-weight: bold;
   color: #111827;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .feature-card p {

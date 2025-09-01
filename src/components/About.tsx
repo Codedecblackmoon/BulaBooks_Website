@@ -36,7 +36,7 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-center team-header">
+        <div className="t-team">
           <h3>Meet Our Team</h3>
           <p>Passionate educators and technologists working together</p>
         </div>
