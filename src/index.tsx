@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage'
 import HowItWorks from './components/HowItWorks'
@@ -11,6 +10,7 @@ import About from './components/About'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,8 +22,8 @@ root.render(
     <HowItWorks />
     <Features />
     <Impact />
-    <Download />
     <About />
+    <Download />
     <Contact />
     <Footer />
   </React.StrictMode>
