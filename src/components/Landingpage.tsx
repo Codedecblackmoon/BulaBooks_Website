@@ -24,7 +24,7 @@ const Landingpage: React.FC = () => {
               </button>
               <button className="btn btn-orange">
                 <Play size={20} />
-                Start for Free
+                <a href="https://bulabooks-mockup-2-bocv.vercel.app/" target="#">Free Demo</a>
               </button>
             </div>
           </div>

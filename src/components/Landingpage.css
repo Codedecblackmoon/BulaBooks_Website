@@ -72,7 +72,7 @@
 
 .hero-text h1 {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight:bolder;
   color: #111827;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -162,6 +162,11 @@
 }
 
 /* Orange Button */
+.btn-orange a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-orange {
   background-color: #ff9124;
   color: white;
