@@ -19,11 +19,11 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Landingpage />
+    <About />
     <HowItWorks />
     <Features />
-    <Impact />
-    <About />
-    <Download />
+    {/* <Impact /> */}
+    {/* <Download /> */}
     <Contact />
     <Footer />
   </React.StrictMode>

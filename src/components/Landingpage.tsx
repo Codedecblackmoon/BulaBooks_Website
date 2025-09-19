@@ -1,6 +1,6 @@
 import React from "react";
 import { Download, Play } from "lucide-react";
-import la from '../images/Group 164.png'
+import la from '../images/ds1.png'
 import "./Landingpage.css";
 
 const Landingpage: React.FC = () => {
@@ -12,16 +12,19 @@ const Landingpage: React.FC = () => {
           <div className="hero-text">
             <h1>
               Unlock Every Child's{" "}
-              <span className="highlight">Reading Journey</span>
+              Reading Journey
+              {/* Unlock Every Child's{" "}
+              <span className="highlight">Reading Journey</span> */}
             </h1>
             <p>
               AI-powered multilingual storybooks that help children in South Africa learn to read in English and home languages, even offline.
             </p>
             <div className="hero-buttons">
-              <button className="btn btn-dark">
+              {/* <button className="btn btn-dark">
                 <Download size={20} />
                 Download
-              </button>
+              </button> */}
+              <button className="btn btn-dark"><a href="#ccontact">Contect Us</a></button>
               <button className="btn btn-orange">
                 <Play size={20} />
                 <a href="https://bulabooks-mockup-2-bocv.vercel.app/" target="#">Free Demo</a>

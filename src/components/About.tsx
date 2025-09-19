@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import im from '../images/img1.png'
+// import missionVideo from '../video/video.mp4'
 import './About.css';
 
 const About: React.FC = () => {
@@ -11,6 +12,22 @@ const About: React.FC = () => {
     { name: 'Oratile', role: 'Marketing | Sales', color: 'orange' },
     { name: 'Montel', role: 'HDev (Back-End)', color: 'orange' }
   ];
+
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play();
+        setIsPlaying(true);
+      } else {
+        videoRef.current.pause();
+        setIsPlaying(false);
+      }
+    }
+  };
+
 
   return (
     <section id="about" className="about-section">
@@ -36,12 +53,26 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="t-team">
-          <h3>Meet Our Team</h3>
-          <p>Passionate educators and technologists working together</p>
+        {/* 🎥 Mission Video Section */}
+        <div className="video-section">
+          <div className="video-wrapper" onClick={togglePlay}>
+            <video
+              ref={videoRef}
+              src='../images/video.mp4'
+              className="mission-video"
+              controls={false}
+            />
+            {!isPlaying && <div className="video-overlay"></div>}
+            <button className="play-button">▶</button>
+          </div>
         </div>
 
-        <div className="team-grid">
+        {/* <div className="t-team">
+          <h3>Meet Our Team</h3>
+          <p>Passionate educators and technologists working together</p>
+        </div> */}
+
+        {/* <div className="team-grid">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member">
               <div className={`team-avatar ${member.color}`}></div>
@@ -49,7 +80,7 @@ const About: React.FC = () => {
               <p>{member.role}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

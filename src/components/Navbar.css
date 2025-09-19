@@ -66,6 +66,11 @@
   gap: 1rem;
 }
 
+#root > header > div > div > div.auth-desktop > button > a{
+  color: #f3f4f6;
+  text-decoration: none;
+}
+
 .btn-signin {
   background: none;
   border: 2px solid #374151;
@@ -74,6 +79,11 @@
   padding: 0.5rem 1rem;
   cursor: pointer;
   transition: color 0.2s ease;
+}
+
+.btn-signin > a{
+  color: #f3f4f6;
+  text-decoration: none;
 }
 
 .btn-signin:hover {

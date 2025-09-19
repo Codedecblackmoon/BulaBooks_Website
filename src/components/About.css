@@ -1,7 +1,8 @@
 /* General Section */
 .about-section {
   padding: 60px 0;
-  background: #fff;
+  background: #f9fafb;
+  margin-bottom: 0px;
 }
 
 .container {
@@ -9,6 +10,75 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+/* 🎥 Mission Video Section */
+.video-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.mission-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+
+#about > div > div.video-section > div > video{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+/* Gray overlay when not playing */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(17, 24, 39, 0.5); /* gray/black overlay */
+  border-radius: 1rem;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Play button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f96d00; /* Orange */
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show play button only on hover */
+.video-wrapper:hover .play-button {
+  opacity: 1;
+}
+
 
 /* Headings & Text */
 .section-header h2 {
