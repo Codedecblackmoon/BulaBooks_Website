@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import im from '../images/img1.png'
-// import missionVideo from '../video/video.mp4'
+import missionVideo from '../assets/video.mp4'
 import './About.css';
 
 const About: React.FC = () => {
@@ -58,7 +58,7 @@ const About: React.FC = () => {
           <div className="video-wrapper" onClick={togglePlay}>
             <video
               ref={videoRef}
-              src='../images/video.mp4'
+              src={missionVideo}
               className="mission-video"
               controls={false}
             />
