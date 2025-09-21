@@ -95,17 +95,27 @@
 }
 
 .hero-text p {
-  font-size: 0.5rem;
+  /* font-size: 0.5rem;
   color: #7a7a7a;
   padding-bottom: 2rem;
   line-height: 1.2;
   max-width: 42rem;
-  margin: 0 auto;
+  margin: 0 auto; */
+
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  color: #4B5563;
+  line-height: 1.7rem;
 }
 
 @media (min-width: 640px) {
   .hero-text p {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .hero-text .highlight {
@@ -150,6 +160,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  width: 15rem;
 }
 
 .btn:hover {
@@ -189,23 +200,35 @@
 
 /* Hero Image */
 .hero-image {
-  display: flex;
+  width: 95%;     /* ✅ scales on all screens */
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  padding-top: 3rem;
   justify-content: center;
+  align-items: center;
+
+  /* 
+  
   align-items: center;
   position: relative;
   height: 500px;
   width: 500px;
-  padding-top: 2rem;
+  
   transition: box-shadow 0.3s ease;
-  transition:0.3s ease-in;
+  transition:0.3s ease-in; */
 }
 /* .hero-image:hover{
   transform: scale(1.05);
 } */
 
 .la img {
-  max-width: 100%;   /* ✅ scales properly */
-  height: auto;      /* ✅ keeps aspect ratio */
+  width: 100%;     /* ✅ scales on all screens */
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  /* max-width: 100%;   
+  height: auto;       */
 }
 
 /* Decorative Circles */

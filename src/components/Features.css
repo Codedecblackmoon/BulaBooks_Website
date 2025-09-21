@@ -35,24 +35,27 @@
 .features-grid {
   display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media (min-width: 768px) {
   .features-grid {
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .features-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
 
 /* Feature Card */
 .feature-card {
   background: white;
-  padding: 2rem;
+  padding: 1rem;
   border-left: 3px solid #ff6c02;
   border-radius: 0.75rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -62,6 +65,7 @@
 
 .feature-card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
 }
 
 /* Feature Icon */
@@ -83,6 +87,7 @@
 
 .feature-icon .icon {
   color: #f97316; /* orange-500 */
+  margin: 0 auto 0.5rem;
 }
 
 /* Text */
@@ -90,7 +95,7 @@
   font-size: 1.25rem; /* text-xl */
   font-weight: bold;
   color: #111827;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.rem;
 }
 
 .feature-card p {

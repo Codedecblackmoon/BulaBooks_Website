@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+// import { Phone, Mail, MapPin } from 'lucide-react';
 import './Contact.css'; // Import the CSS file
 
 const Contact: React.FC = () => {
@@ -65,8 +65,8 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="contact-info">
-            <div className="info-item">
+          {/* <div className="contact-info"> */}
+            {/* <div className="info-item">
               <div className="icon-box">
                 <Phone size={20} />
               </div>
@@ -74,9 +74,9 @@ const Contact: React.FC = () => {
                 <div className="info-title">Phone</div>
                 <div className="info-text">+27 123 456 890</div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="info-item">
+            {/* <div className="info-item">
               <div className="icon-box">
                 <Mail size={20} />
               </div>
@@ -84,9 +84,9 @@ const Contact: React.FC = () => {
                 <div className="info-title">Email</div>
                 <div className="info-text">info@bulabooks.co.za</div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="info-item">
+            {/* <div className="info-item">
               <div className="icon-box">
                 <MapPin size={20} />
               </div>
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                 <div className="info-title">Location</div>
                 <div className="info-text">Johannesburg, South Africa</div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="map-box">
               <h4>Find us on the map</h4>
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
                 <MapPin size={48} />
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
