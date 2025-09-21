@@ -1,12 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage'
 import HowItWorks from './components/HowItWorks'
 import Features from './components/Features'
-import Impact from './components/Impact'
-import Download from './components/Download'
+import Device from './components/Device'
+// import Impact from './components/Impact'
+// import Download from './components/Download'
 import About from './components/About'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')!).render(
     <Navbar />
     <Landingpage />
     <About />
+    <Device />
     <HowItWorks />
     <Features />
     {/* <Impact /> */}
