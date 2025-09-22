@@ -1,5 +1,5 @@
 import React from "react";
-import { Download, Play } from "lucide-react";
+import { Play } from "lucide-react";
 import la from '../images/ds1.png'
 import "./Landingpage.css";
 

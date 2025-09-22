@@ -4,14 +4,14 @@ import missionVideo from '../assets/video.mp4'
 import './About.css';
 
 const About: React.FC = () => {
-  const teamMembers = [
-    { name: 'Boitumelo', role: 'Marketing | Dev (Front-End)', color: 'orange' },
-    { name: 'khuselo', role: 'Finance | Dev (Back-End)', color: 'orange' },
-    { name: 'Lee-vandre', role: 'Finance | Dev (Back-End)', color: 'orange' },
-    { name: 'Gideon', role: 'Dev (Front-End)', color: 'orange' },
-    { name: 'Oratile', role: 'Marketing | Sales', color: 'orange' },
-    { name: 'Montel', role: 'HDev (Back-End)', color: 'orange' }
-  ];
+  // const teamMembers = [
+  //   { name: 'Boitumelo', role: 'Marketing | Dev (Front-End)', color: 'orange' },
+  //   { name: 'khuselo', role: 'Finance | Dev (Back-End)', color: 'orange' },
+  //   { name: 'Lee-vandre', role: 'Finance | Dev (Back-End)', color: 'orange' },
+  //   { name: 'Gideon', role: 'Dev (Front-End)', color: 'orange' },
+  //   { name: 'Oratile', role: 'Marketing | Sales', color: 'orange' },
+  //   { name: 'Montel', role: 'HDev (Back-End)', color: 'orange' }
+  // ];
 
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
