@@ -5,8 +5,9 @@
   min-height: 100vh;      /* ✅ fill screen height */
   padding-top: 7rem;      
   padding-bottom: 0;
+  width: 100%;
   background: #f9fafb;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   display: flex;
   align-items: center;    /* ✅ vertically center content */
 }
@@ -34,6 +35,7 @@
 @media (min-width: 768px) {
   .hero {    
     padding-top: 1rem;
+    padding: 0 1rem;
   }
   .hero-container{
   max-width: 1220px; 
