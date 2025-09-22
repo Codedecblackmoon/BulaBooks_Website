@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo1 from '../images/Im.png'
 import './Contact.css'
 
 interface FormData {
@@ -136,20 +137,19 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Image Section */}
-          <div className="lg:w-1/2 bg-gradient-to-br from-amber-100 to-orange-200 relative overflow-hidden">
+          <div className="lg:w-1/2 relative overflow-hidden">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-8xl mb-4 opacity-50">📷</div>
-                <div className="bg-black bg-opacity-20 backdrop-blur-sm rounded-full w-32 h-32 mx-auto flex items-center justify-center">
-                  <div className="text-4xl">👤</div>
+                <div className="text-8xl mb-4 p-20px">
+                  <img src={logo1} alt="" className="w-120"/>
                 </div>
               </div>
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute top-10 left-10 w-20 h-20 bg-white bg-opacity-30 rounded-full"></div>
-            <div className="absolute bottom-20 right-10 w-16 h-16 bg-white bg-opacity-20 rounded-full"></div>
-            <div className="absolute top-1/3 right-20 w-8 h-8 bg-white bg-opacity-40 rounded-full"></div>
+            <div className="absolute top-10 left-10 w-20 h-20 bg-[#f96d00] bg-opacity-20 rounded-full"></div>
+            <div className="absolute bottom-20 right-10 w-16 h-16 bg-[#f96d00] bg-opacity-20 rounded-full"></div>
+            <div className="absolute top-1/3 right-20 w-8 h-8 bg-[#f96d00] bg-opacity-20 rounded-full"></div>
           </div>
         </div>
       </div>

@@ -7,18 +7,27 @@
     gap: 5rem;
 }
 
-.device img{
-    width: 100%;
+.cont img{
+    width: 60%;
 }
 
 .mas h1{
-    font-size:xx-large;
+    font-size: 5rem;
     font-weight: bolder;
+    line-height: 4.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 @media (max-width: 768px) {
     .cont{
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 2rem;
+    }
+
+    .mas h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111827;
+    text-align: center;
     }
 }
