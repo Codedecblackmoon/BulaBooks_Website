@@ -6,10 +6,7 @@
   padding-top: 7rem;      
   padding-bottom: 0;
   width: 100%;
-  /* background: #f9fafb; */
-  /* overflow-x: hidden; */
   background-image: url('../images/patten_3.png'); 
-
   background-size:300px;   
   background-position:bottom;
   background-repeat:no-repeat;
@@ -40,7 +37,15 @@
 @media (min-width: 768px) {
   .hero {    
     padding-top: 1rem;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    position: relative;
+  width: 100%;
+  /* background-image: url('../images/patten_3.png');  */
+  background-size:600px;   
+  background-position:right;
+  background-position-x: 650px;
+
+  background-repeat:no-repeat;
   }
   .hero-container{
   max-width: 1220px; 
@@ -48,8 +53,7 @@
   padding: 0 1rem;
   position: relative;
   width: 100%;
-  background-image: url('../images/patten_3.png'); 
-  /* background-blend-mode: hard-light; */
+  /* background-image: url('../images/patten_3.png');  */
   background-size:600px;   
   background-position:right;
   background-repeat:no-repeat;
