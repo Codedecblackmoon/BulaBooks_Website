@@ -25,7 +25,7 @@ const Landingpage: React.FC = () => {
                 Download
               </button> */}
               <button className="btn btn-dark"><a href="#ccontact">Contact Us</a></button>
-              <button className="btn btn-orange">
+              <button className="btn btn-orange ">
                 <Play size={20} />
                 <a href="https://bulabooks-mockup-2-bocv.vercel.app/" target="#">Free Demo</a>
               </button>

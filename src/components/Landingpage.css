@@ -204,6 +204,10 @@
   background-color: #ff9124;
   color: white;
   border: 1px solid white;
+  /* padding-bottom: 5px;
+  padding-top: 5px; */
+
+  animation: bounce 1s infinite alternate;
 }
 
 .btn-orange:hover {
