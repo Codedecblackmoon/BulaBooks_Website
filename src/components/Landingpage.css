@@ -207,6 +207,18 @@
   animation: bounce 1s infinite alternate;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Starting position */
+  }
+  50% {
+    transform: translateY(-10px); /* Moves up */
+  }
+  100% {
+    transform: translateY(0); /* Returns to original position */
+  }
+}
+
 .btn-orange:hover {
   background-color: #ea580c;
 }
