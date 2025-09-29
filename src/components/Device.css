@@ -12,6 +12,7 @@
 }
 
 .mas h1{
+    color: #f96d00;
     font-size: 5rem;
     font-weight: bolder;
     line-height: 4.5rem;
@@ -22,12 +23,20 @@
     .cont{
     flex-direction: column-reverse;
     margin: 2rem;
+    gap: 1rem;
+    
     }
 
     .mas h1{
     font-size: 2rem;
     font-weight: bold;
-    color: #111827;
+    color: #f96d00;
     text-align: center;
+    line-height: 30px;
+    text-shadow: none;
+    }
+    .cont img{
+    width: 90%;
+    padding-bottom: 2rem;
     }
 }

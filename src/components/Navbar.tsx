@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
           {/* Desktop Auth Buttons */}
           <div className="auth-desktop">
             {/* <button className="btn-signin">Sign In</button> */}
-            <button className="btn-signup"><a href="#ccontact">Contect Us</a></button>
+            <button className="btn-signup"><a href="#contact">Contect Us</a></button>
           </div>
 
           {/* Mobile menu button */}
@@ -46,10 +46,10 @@ const Navbar: React.FC = () => {
               <a href="#about">About</a>
               <a href="#features">Features</a>
               <a href="#contact">Contact</a>
-              <div className="auth-mobile">
-                <button className="btn-signup"><a href="#ccontact">Contect Us</a></button>
-                {/* <button className="btn-signup">Sign Up</button> */}
-              </div>
+              {/* <div className="auth-mobile">
+                <button className="btn-signup"><a href="#contact">Contect Us</a></button>
+                {/* <button className="btn-signup">Sign Up</button> 
+              </div> */}
             </nav>
           </div>
         )}

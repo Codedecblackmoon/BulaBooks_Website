@@ -119,12 +119,13 @@
 .nav-mobile {
   display: block;
   position: absolute;
-  top: 64px;
+  top:70px;
   left: 0;
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 3px solid #d1d1d1;
   padding: 1rem;
+
 }
 
 .nav-mobile nav {
@@ -134,11 +135,11 @@
   gap: 1rem;
 }
 
-.nav-mobile a {
+/* .nav-mobile a {
   color: #374151;
   text-decoration: none;
   transition: color 0.2s ease;
-}
+} */
 
 .nav-mobile a:hover {
   color: #ff6c02;
@@ -169,4 +170,10 @@
   .nav-mobile {
     display: none;
   }
+  .logo-container #image{
+  width: 90px;
+  height: 90px;
+  padding: 7px;
+  }
+
 }
