@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import im from '../images/img1.png'
-import missionVideo from '../assets/video.mp4'
+import missionVideo from '../assets/vid.mp4'
 import './About.css';
 
 const About: React.FC = () => {
