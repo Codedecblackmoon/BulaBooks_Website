@@ -1,4 +1,8 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(4px);
