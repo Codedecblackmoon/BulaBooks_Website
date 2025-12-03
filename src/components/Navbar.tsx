@@ -22,21 +22,16 @@ const Navbar: React.FC = () => {
       showCancelButton: true,
       confirmButtonText: "PC Version",
       cancelButtonText: "Phone Version",
+      denyButtonText: "Linux Version",
     }).then((result) => {
       if (result.isConfirmed) {
-        triggerDownload("/downloads/game-pc.zip", "game-pc.zip");
+        triggerDownload("..\assets\BulaBooks7.apk", "BulaBooks.exe");
       } else if (result.dismiss === Swal.DismissReason.cancel) {
-        triggerDownload("/downloads/game-phone.apk", "game-phone.apk");
-      }
+        triggerDownload("..\assets\BulaBooks8.apk", "Bulabooks.apk");
+      }else if (result.isDenied) {
+      triggerDownload("/downloads/BulaBooks-Linux.zip", "BulaBooks-Linux.zip")}
     });
   };
-
-  // const handleDownload = () => {
-  //   const link = document.createElement("a");
-  //   link.href = "/example.pdf"; // file location in public folder
-  //   link.download = "BulaBooks"; 
-  //   link.click();
-  // };
 
   return (
     <header className="header">
