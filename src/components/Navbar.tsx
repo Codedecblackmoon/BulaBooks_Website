@@ -7,7 +7,7 @@ import "./Navbar.css";
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const triggerDownload = (filePath, fileName) => {
+  const triggerDownload = (filePath: string, fileName: string) => {
     const link = document.createElement("a");
     link.href = filePath;
     link.download = fileName;
