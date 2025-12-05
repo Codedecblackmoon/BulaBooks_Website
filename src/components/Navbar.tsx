@@ -4,34 +4,42 @@ import logo1 from '../images/logo1.png'
 import Swal from "sweetalert2";
 import "./Navbar.css";
 
+
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const triggerDownload = (filePath: string, fileName: string) => {
-    const link = document.createElement("a");
-    link.href = filePath;
-    link.download = fileName;
-    link.click();
-  };
+  
+  const triggerDownload = (filePath: string) => {
+      const link = document.createElement("a");
+      link.href = filePath;
+      link.click();
+    };
 
-  const handleDownload = () => {
-    Swal.fire({
-      title: "Choose your download",
-      text: "Which version do you want to download?",
-      icon: "question",
-      showCancelButton: true,
-      confirmButtonText: "PC Version",
-      cancelButtonText: "Phone Version",
-      denyButtonText: "Linux Version",
-    }).then((result) => {
-      if (result.isConfirmed) {
-        triggerDownload("..\assets\BulaBooks7.apk", "BulaBooks.exe");
-      } else if (result.dismiss === Swal.DismissReason.cancel) {
-        triggerDownload("..\assets\BulaBooks8.apk", "Bulabooks.apk");
-      }else if (result.isDenied) {
-      triggerDownload("/downloads/BulaBooks-Linux.zip", "BulaBooks-Linux.zip")}
-    });
-  };
+    const handleDownload = () => {
+      Swal.fire({
+        title: "Choose your download",
+        text: "Which version do you want to download?",
+        icon: "question",
+
+        showConfirmButton: true,
+        confirmButtonText: "PC Version",
+
+        showDenyButton: true,
+        denyButtonText: "Linux Version",
+
+        showCancelButton: true,
+        cancelButtonText: "Phone Version",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          triggerDownload("public/Download/Bulabooks_windows_version.zip");
+        } else if (result.isDenied) {
+          triggerDownload("public/Download/Bulabooh_linux_version.zip");
+        } else if (result.dismiss === Swal.DismissReason.cancel) {
+          triggerDownload("public/Download/BulaBooks.apk");
+        }
+      });
+    };
+
 
   return (
     <header className="header">
