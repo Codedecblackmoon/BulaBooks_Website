@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
         } else if (result.isDenied) {
           triggerDownload("public/Download/Bulabooh_linux_version.zip");
         } else if (result.dismiss === Swal.DismissReason.cancel) {
-          triggerDownload("public/Download/BulaBooks.apk");
+          triggerDownload("public/Download/BulaBooksV1.apk");
         }
       });
     };
