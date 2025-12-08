@@ -22,20 +22,20 @@ const Navbar: React.FC = () => {
         icon: "question",
 
         showConfirmButton: true,
-        confirmButtonText: "PC Version",
+        confirmButtonText: "Phone Version",
 
-        showDenyButton: true,
-        denyButtonText: "Linux Version",
+        // showDenyButton: true,
+        // denyButtonText: "Linux Version",
 
-        showCancelButton: true,
-        cancelButtonText: "Phone Version",
+        // showCancelButton: true,
+        // cancelButtonText: "PC Version",
       }).then((result) => {
         if (result.isConfirmed) {
-          triggerDownload("public/Download/Bulabooks_windows_version.zip");
+          triggerDownload("public/Download/BulaBooksV1.apk");
         } else if (result.isDenied) {
           triggerDownload("public/Download/Bulabooh_linux_version.zip");
         } else if (result.dismiss === Swal.DismissReason.cancel) {
-          triggerDownload("public/Download/BulaBooksV1.apk");
+          triggerDownload("public/Download/Bulabooks_windows_version.zip");
         }
       });
     };
@@ -81,11 +81,19 @@ const Navbar: React.FC = () => {
               <a href="#about">About</a>
               <a href="#features">Features</a>
               <a href="#contact">Contact</a>
+              <button onClick={handleDownload} className="btn-signup"><a >Download </a></button>
+
               {/* <div className="auth-mobile">
                 <button className="btn-signup"><a href="#contact">Contect Us</a></button>
                 {/* <button className="btn-signup">Sign Up</button> 
               </div> */}
             </nav>
+
+            {/* Desktop Auth Buttons */}
+            <div className="auth-desktop">
+              {/* <button className="btn-signin">Sign In</button> */}
+              <button onClick={handleDownload} className="btn-signup"><a >Download </a></button>
+            </div>
           </div>
         )}
       </div>
